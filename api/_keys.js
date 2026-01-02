@@ -1,38 +1,22 @@
 export const KEYS = {
   pakasir: {
-    project: "newproject",
-    apiKey: "AsyIISrYJ67r9M8ZAAE33n5XvWaI9Fa9",
+    project: "armufa-store",
+    apiKey: "c7ZaITXiSjqYlhMV37bQLnTQslBbAoO2",
     baseUrl: "https://app.pakasir.com/api",
   },
 
   pterodactyl: {
-    domain: "https://",
-    apiKey: "",
-    clientKey: "",
-    egg: 15,
+    domain: "https://hirrxvia.kandigpanel.my.id",
+    apiKey: "ptla_pafMSBQVxAZX05k8x1T2WIET5M2j4f8mpAwUmybHqHO",
+    clientKey: "ptlc_W9jA9fOM3SQodlZ7Rcw0aPlcl8dAc6ZS43YzQHUfSIR",
+    egg: 16,
     nestId: 5,
     locationId: 1,
   },
 
   digitalocean: {
-    apiKey: "",
+    apiKey: "dop_v1_e2ec8cf80480d84d18ba4c646202e01a6059b6390ffeb128975f755b10192ccf",
     region: "sgp1",
     image: "ubuntu-24-04-x64",
-  },
-
-  // MongoDB Atlas (backend only)
-  mongodb: {
-    uri: "mongodb+srv://cahyaadi679_db_user:58QH3I3WKqKnwcON@cluster0.gfcudzj.mongodb.net/?appName=Cluster0", // bagi yang ya paham gausah di ganti yang paham di ganti juga boleh
-    dbName: "shop",
-    ordersCollection: "orders",
-    reviewsCollection: "reviews",
-  },
-
-  // Telegram (backend only)
-  telegram: {
-    botToken: "8129299272:AAFz7ZhH4ZV-et1oNE9fOjlW0WjqwWyIS7E",      // contoh: 123456:ABC-DEF...
-    ownerChatId: "8218627647",   // contoh: 123456789
-    channelChatId: "1003165606817", // contoh: -1001234567890 atau @usernamechannel
-    websiteUrl: "https://fasturl.my.id", // untuk ditampilkan di struk
   },
 };
